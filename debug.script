@@ -1,0 +1,1 @@
+run -host ligeti.cs.iit.edu -db orcl -port 1521 -user fga_user -passwd fga -log -loglevel 0 -activate treefiy_prov_rewrite_input -sql "PROVENANCE OF (SELECT SUM(a) AS c FROM R GROUP BY b);" -activate aggressive_model_checking
